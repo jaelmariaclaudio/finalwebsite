@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+<title>Jael Maria A. Claudio</title>
+<style>
+</style>
+</head>
+
+
+
+
+<body>
+  <div class="container">
+    <img src="images/chstlogo.png" alt="logo" id="logo"></div>
+  
+
+  <nav id="navbar">
+    <div class="container">
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="page2.html">ANNOUNCEMENT</a></li>
+        <li><a href="page3.html">ABOUT US</a></li>
+        <li><a href="page4.html">PROGRAMS OFFERED</a></li>
+        <li><a href="page5.html">PICTURE GALLERY</a></li>
+        <li><a href="page6.html">CONTACT US</a></li>
+      </ul>
+    </div>
+  </nav>
+
+		<br><br><br><br>
+
+		<article1 class="article1" id="AboutUs">
+		<table>
+		<tr>
+		<td>
+		<img src="images/building.jpg" alt="AboutUs" width="600" height="700">
+		</td>
+		<td>
+		<span class="title">About Us</span>
+		<span class="sub-title">What is College of the Holy Spirit of Tarlac</span>
+		<p>The College of the Holy Spirit of Tarlac (also referred to as CHST; colloquially, "Pirit") is one of the schools directed by the Missionary Sisters Servants of the Holy Spirit in the Philippines. It was established in 1939 as the Catholic Academy of Tarlac.
+
+CHST has three buildings within Tarlac City—the primary, secondary, senior high school education <span id="dots">...</span><span id="more"> departments are located in San Sebastian Village. It was originally an exclusive school for girls but in 2005, they started admitting male students which resulted to its growing population.
+
+At present, the college has a Level 3 Accreditation Status awarded by the Philippine Accrediting Association of Schools, Colleges and Universities (PAASCU).</span></p>
+	
+<button onclick="myFunction()" id="myBtn">Read more</button>
+		</td>
+		</tr>
+		</table>
+    </article1>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		
+    <div id="footer">
+      <div class="container">
+      <p>Copyright © 2021. College of the Holy Spirit. All rights reserved.
+        San Sebastian, Tarlac City, Philippines 2300 </p>
+    </div></div> 
+
+
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+
+			</body>
+</html>
